@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\BBB"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "nighthawk-enterprises"
+	}
+}
