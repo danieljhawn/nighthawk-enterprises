@@ -9,7 +9,7 @@
 }
 
 html {
-    //This defines what 1rem is for the page, can be used for ADA compliance
+    //This defines what 1rem is for the page, can be used for ADA compliance. with this setting, 1 rem = 10 pixels, because the default font set by browser is 16px. 62.5 * 16 = 10
     font-size: 62.5%;
 }
 
