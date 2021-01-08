@@ -1,0 +1,23 @@
+{
+  "name": "nighthawk-enterprises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieljhawn/nighthawk-enterprises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danieljhawn/nighthawk-enterprises/issues"
+  },
+  "homepage": "https://github.com/danieljhawn/nighthawk-enterprises#readme"
+}
