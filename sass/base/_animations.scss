@@ -1,0 +1,21 @@
+/* Animations */
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        
+    }
+
+    /* 60% {
+        transform: rotate(120deg);
+    } */
+
+    /* 80% {
+        transform: translateX(20px);
+    } */
+
+    100% {
+        opacity: 1;
+        
+    }
+}
