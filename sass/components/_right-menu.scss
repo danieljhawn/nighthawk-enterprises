@@ -6,7 +6,7 @@
 
     &__item {
         
-        height: 15rem;
+        height: 100rem;
 
         &--1 {
             
@@ -18,18 +18,23 @@
         &--2 {
             position: absolute;
             top: 0;
-            
+            animation: moveDown2 3s;
+            animation-fill-mode: forwards;
         }
 
         &--3 {
             position: absolute;
             top: 0;
+            animation: moveDown3 3s;
+            animation-fill-mode: forwards;
             
         }
 
         &--4 {
             position: absolute;
             top: 0;
+            animation: moveDown4 3s;
+            animation-fill-mode: forwards;
             
         }
     }

@@ -56,6 +56,38 @@
     }
 }
 
+// Right Menu animations
+
+@keyframes moveDown2 {
+    0% {
+
+    }
+
+    100% {
+        transform: translateY(25%);
+    }
+}
+
+@keyframes moveDown3 {
+    0% {
+
+    }
+
+    100% {
+        transform: translateY(50%);
+    }
+}
+
+@keyframes moveDown4 {
+    0% {
+
+    }
+
+    100% {
+        transform: translateY(75%);
+    }
+}
+
 
 @-webkit-keyframes glow {
     from {
