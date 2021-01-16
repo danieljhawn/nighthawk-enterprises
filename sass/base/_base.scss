@@ -16,3 +16,13 @@ html {
 body {
     box-sizing: border-box;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
