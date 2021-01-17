@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: row; }
 
-.column {
+.col {
   display: flex;
   flex-direction: column; }
 
@@ -101,6 +101,21 @@ body {
   color: #fff;
   height: 100vh; }
 
+.col-heading {
+  width: 75%; }
+
+.col-right-menu {
+  width: 25%; }
+
+.section-developers {
+  background-color: #000;
+  color: #fff;
+  height: 100vh;
+  padding: 5rem; }
+
+.about-header {
+  text-align: center; }
+
 .heading-primary {
   position: relative;
   height: 100vh;
@@ -169,7 +184,7 @@ body {
     position: relative; }
   .story__img {
     height: 100%;
-    transform: translateX(-4rem) scale(1.4);
+    transform: translateX(2.8rem) scale(1.4);
     backface-visibility: hidden;
     transition: all .5s; }
   .story__text {
@@ -190,5 +205,5 @@ body {
     opacity: 1;
     transform: translate(-50%, -50%); }
   .story:hover .story__img {
-    transform: translateX(-4rem) scale(1);
+    transform: translateX(2.8rem) scale(1);
     filter: blur(3px) brightness(80%); }
