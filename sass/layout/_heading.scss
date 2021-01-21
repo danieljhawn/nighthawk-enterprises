@@ -1,34 +1,28 @@
 .heading-primary {
-    position: relative;
-    height: 100vh;
-    font-size: 8rem;
-    
+  position: relative;
+  height: 100vh;
+  font-size: 8rem;
+  font-family: "Six Caps", sans-serif;
+  letter-spacing: 2rem;
 
+  &__1 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    animation: fadeIn, letterSpacingShrink 2s ease-in-out;
+  }
 
-    &__1 {
-        position: absolute;
-        top: 15%;
-        left: 10%;
-        animation-name: fadeIn;
-        animation-duration: 3s;
-        animation-timing-function: ease-in;
-        
-        
-    }
+  &__2 {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    animation: fadeIn2, letterSpacingShrink 2s ease-in-out;
+  }
 
-    &__2 {
-        position: absolute;
-        top: 45%;
-        left: 25%;
-        animation: fadeIn2 3s ease-in;
-        
-    }
-
-    &__3 {
-        position: absolute;
-        top: 75%;
-        left: 55%;
-        animation: fadeIn3 3s ease-in;
-        
-    }
+  &__3 {
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    animation: fadeIn, letterSpacingShrink 2s ease-in-out;
+  }
 }
