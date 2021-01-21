@@ -1,8 +1,8 @@
 .section-home {
-    background-color: $color-black;
+    // background-color: $color-black;
     color: $color-white;
     height: 100vh;
-    
+    // z-index: 0;
 }
 
 .col-heading {
@@ -12,5 +12,31 @@ width: 75%;
 
 .col-right-menu {
 width: 25%;
+height: 100vh;
+
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1
+;
+}
+
+.vid-overlay {
+  // position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: transparentize($color-tertiary-dark, 0.7);
+  z-index: 1;
+}
+
+.front-page-content {
 
 }

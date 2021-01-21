@@ -127,7 +127,6 @@ body {
 }
 
 .section-home {
-  background-color: #000;
   color: #fff;
   height: 100vh;
 }
@@ -138,6 +137,26 @@ body {
 
 .col-right-menu {
   width: 25%;
+  height: 100vh;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.vid-overlay {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: rgba(86, 67, 250, 0.3);
+  z-index: 1;
 }
 
 .section-developers {
@@ -187,7 +206,7 @@ body {
 }
 
 .right-menu__item {
-  height: 80rem;
+  height: 40rem;
 }
 
 .right-menu__item--2 {
