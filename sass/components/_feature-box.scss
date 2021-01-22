@@ -4,17 +4,27 @@
     padding: 2.5rem;
     text-align: center;
     border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    box-shadow: 0 1.5rem 4rem rgba($color-white, .15);
     //allows smooth "transform" effect
     transition: transform .3s;
 
-    &__icon {
-        font-size: 6rem;
-        margin-bottom: .5rem;
-        display: inline-block;
-        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
-        -webkit-background-clip: text;
-        color: transparent;
+    &__img {
+        height: 30rem;
+        
+        // font-size: 6rem;
+        // margin-bottom: .5rem;
+        // display: inline-block;
+        // background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+        // -webkit-background-clip: text;
+        // color: transparent;
+
+        &--BBB{
+
+        }
+
+        &--AB {
+
+        }
     }
     
     &:hover {

@@ -1,0 +1,18 @@
+.clients {
+    background-color: $color-black;
+    color: $color-white;
+    height: 100vh;
+    padding: 5rem;
+}
+
+.feature-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.client-header {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
