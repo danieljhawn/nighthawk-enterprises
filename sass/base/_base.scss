@@ -1,28 +1,38 @@
 /* Global variables */
 
-*, 
-*::after, 
+*,
+*::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-    //This defines what 1rem is for the page, can be used for ADA compliance. with this setting, 1 rem = 10 pixels, because the default font set by browser is 16px. 62.5 * 16 = 10
-    font-size: 62.5%;
+  //This defines what 1rem is for the page, can be used for ADA compliance. with this setting, 1 rem = 10 pixels, because the default font set by browser is 16px. 62.5 * 16 = 10
+  font-size: 62.5%;
 }
 
 body {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .col {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
 }
