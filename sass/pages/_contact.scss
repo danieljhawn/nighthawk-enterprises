@@ -1,0 +1,67 @@
+.contact {
+    text-align: center;
+    padding: 3rem 0;
+
+    background-color: $color-black;
+    color: $color-white;
+    height: 100vh;
+    padding: 5rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    display: block;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.bottom-line {
+    height: 2px;
+    width: 5rem;
+    background: yellow;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    }
+
+    .text-fields {
+        display: grid;
+        grid-template-areas:
+        'name email'
+        'subject phone'
+        'message message';
+        grid-gap: 1.2rem;
+        margin-bottom: 1.2rem;
+
+        //Grid Areas
+        .name-input {
+            grid-area: name;
+        }
+        .subject-input {
+            grid-area: subject;
+        } 
+        .email-input {
+            grid-area: email;
+        }
+        .phone-input {
+            grid-area: phone;
+        }
+        .message-input {
+            grid-area: message;
+            height: 150px;
+        }
+
+        .text-input {
+            padding: 0.5rem 1rem;
+        }
+    }
+
+    button[type='submit'] {
+        width: 50%;
+    }
