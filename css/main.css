@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Raleway-VariableFont_wght';
+  src: url("fonts/Raleway-VariableFont_wght.ttf");
+}
+
 /* Global variables */
 *,
 *::after,
@@ -273,7 +278,8 @@ button[type='submit'] {
   position: relative;
   height: 100vh;
   font-size: 8rem;
-  font-family: "Six Caps", sans-serif;
+  font-family: "Raleway";
+  font-weight: 200;
   letter-spacing: 2rem;
 }
 
