@@ -211,6 +211,7 @@ a:visited {
 .clients {
   background-color: #000;
   color: #fff;
+  font-family: 'Raleway', sans-serif;
   height: 100vh;
   padding: 5rem;
 }
@@ -456,5 +457,6 @@ button[type='submit'] {
 }
 
 .container {
-  display: flex;
+  max-width: 900px;
+  margin: auto;
 }
