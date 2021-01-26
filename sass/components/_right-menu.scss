@@ -1,42 +1,48 @@
 .right-menu {
-    
-    display: flex;
-    flex-direction: column;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  // position: relative;
+  font-family: "Raleway";
+  font-weight: 200;
+  font-size: 2rem;
+  text-transform: uppercase;
+  height: 100vh;
+  padding-left: 1em;
+  
+  &__item {
+    padding-top: 3rem;
 
-    &__item {
-        
-        height: 40rem;
-
-        &--1 {
-            
-            
-            
-            
-        }
-
-        &--2 {
-            position: absolute;
-            top: 0;
-            animation: moveDown2 3s;
-            animation-fill-mode: forwards;
-        }
-
-        &--3 {
-            position: absolute;
-            top: 0;
-            animation: moveDown3 3s;
-            animation-fill-mode: forwards;
-            
-        }
-
-        &--4 {
-            position: absolute;
-            top: 0;
-            animation: moveDown4 3s;
-            animation-fill-mode: forwards;
-            
-        }
+    &--1 {
+      top: 0;
+      animation: moveDown1 1s;
+      animation-fill-mode: forwards;
     }
 
+    &--2 {
+      top: 0;
+      animation: moveDown2 1s;
+      animation-fill-mode: forwards;
+    }
+
+    &--3 {
+      top: 0;
+      animation: moveDown3 1s;
+      animation-fill-mode: forwards;
+    }
+
+    &--4 {
+      top: 0;
+      animation: moveDown4 1s;
+      animation-fill-mode: forwards;
+    }
+  }
+}
+
+
+.vertical-line {
+  border-left: 2px solid white;
+  // height: 0vh;
+  animation: draw-line 2s;
+  animation-fill-mode: forwards;
 }
