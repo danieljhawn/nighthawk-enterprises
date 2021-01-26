@@ -8,8 +8,8 @@
   font-size: 2rem;
   text-transform: uppercase;
   height: 100vh;
-  border-left: 2px solid white;
   padding-left: 1em;
+  
   &__item {
     padding-top: 3rem;
 
@@ -37,4 +37,12 @@
       animation-fill-mode: forwards;
     }
   }
+}
+
+
+.vertical-line {
+  border-left: 2px solid white;
+  height: 0vh;
+  animation: draw-line 2s;
+  animation-fill-mode: forwards;
 }

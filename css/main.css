@@ -118,6 +118,18 @@ a:visited {
   }
 }
 
+@keyframes draw-line {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 50vh;
+  }
+  100% {
+    height: 100vh;
+  }
+}
+
 .glow {
   font-size: 80px;
   color: #fff;
@@ -327,7 +339,6 @@ button[type='submit'] {
   font-size: 2rem;
   text-transform: uppercase;
   height: 100vh;
-  border-left: 2px solid white;
   padding-left: 1em;
 }
 
@@ -356,6 +367,13 @@ button[type='submit'] {
 .right-menu__item--4 {
   top: 0;
   animation: moveDown4 1s;
+  animation-fill-mode: forwards;
+}
+
+.vertical-line {
+  border-left: 2px solid white;
+  height: 0vh;
+  animation: draw-line 2s;
   animation-fill-mode: forwards;
 }
 
