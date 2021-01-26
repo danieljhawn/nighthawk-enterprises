@@ -42,7 +42,7 @@
 
 .vertical-line {
   border-left: 2px solid white;
-  height: 0vh;
+  // height: 0vh;
   animation: draw-line 2s;
   animation-fill-mode: forwards;
 }
