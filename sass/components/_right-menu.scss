@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  // position: relative;
+  position: relative;
   font-family: "Raleway";
   font-weight: 200;
   font-size: 2rem;
@@ -42,7 +42,6 @@
 
 .vertical-line {
   border-left: 2px solid white;
-  // height: 0vh;
   animation: draw-line 2s;
   animation-fill-mode: forwards;
 }
