@@ -4,11 +4,9 @@
   0% {
     opacity: 0;
   }
-
   75% {
     opacity: 0.1;
   }
-
   100% {
     opacity: 1;
   }
@@ -18,11 +16,9 @@
   0% {
     opacity: 0;
   }
-
   55% {
     opacity: 0.1;
   }
-
   100% {
     opacity: 1;
   }
@@ -32,11 +28,9 @@
   0% {
     opacity: 0;
   }
-
   75% {
     opacity: 0.1;
   }
-
   100% {
     opacity: 1;
   }
@@ -46,19 +40,23 @@
   0% {
     letter-spacing: 10rem;
   }
-
   100% {
     letter-spacing: 2rem;
-
   }
 }
 
 // Right Menu animations
+@keyframes moveDown1 {
+  0% {
+  }
+  100% {
+    transform: translateY(1%);
+  }
+}
 
 @keyframes moveDown2 {
   0% {
   }
-
   100% {
     transform: translateY(25%);
   }
@@ -67,7 +65,6 @@
 @keyframes moveDown3 {
   0% {
   }
-
   100% {
     transform: translateY(50%);
   }
@@ -76,20 +73,7 @@
 @keyframes moveDown4 {
   0% {
   }
-
   100% {
     transform: translateY(75%);
-  }
-}
-
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
-      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-  }
-
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
-      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 }
